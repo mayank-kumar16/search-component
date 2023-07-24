@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="container">
+         <form action="">
+          <div class="form-control">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="search products" id="input-search" onkeyup="search();" list="prod-det">
+              <datalist id="prod-det">
+                <option value="Airpod">
+                <option value="iPad">
+                <option value="iPhone 13">
+                <option value="MacBook Air">
+                <option value="PlayStation">
+                <option value="Samsung Galaxy S23">
+                <option value="Shoes">
+                <option value="Tshirt">
+                <option value="TIMEX Watch">
+                <option value="Xbox Series S">
+              </datalist>
+          </div>
+         </form>
+         <div class="product-container" id="product-container">
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/airpod.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>Airpod</h3>
+               <p>AirPods (3rd generation) and AirPods Pro (2nd generation) are sweat and water resistant for non-water sports and exercise, and they are IPX4 rated.</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 1250.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/ipad.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>iPad</h3>
+               <p>Apple 2021 10.2-inch (25.91 cm) iPad with A13 Bionic chip (Wi-Fi, 64GB) - Space Grey (9th Generation).</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 29,990.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+        <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/iphone13.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>iPhone 13</h3>
+               <p>Apple iPhone 13 Mini (128GB) - Pink</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 64,900.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+        <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/macbook.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>MacBook Air</h3>
+               <p>Apple 2020 MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 81,990.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+        <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/playstation.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>PlayStation</h3>
+               <p>Sony PS5 PlayStation Console+God Of War Ragnarok | Standard Edition | PS5 Game (PlayStation 5)</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 58000.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+        <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/s23.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>Samsung Galaxy S23</h3>
+               <p>Samsung Galaxy S23 Ultra 5G (Cream, 12GB, 256GB Storage).</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 124000.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/shoes.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>Shoes</h3>
+               <p>ANDUNE Men's Barefoot & Minimalist Shoes - Black Blaze | Wide Toe Box | Zero Drop Sole</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 1250.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/tshirt.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>Tshirt</h3>
+               <p>Aventura Outfitters Men's Regular Fit T-Shirt.</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 300.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/watchpng.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>TIMEX Watch</h3>
+               <p>TIMEX E-Class Surgical Steel Engage Chronograph Analog Grey Dial Men's Watch-TWEG19401</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 9,395</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+          <div class="product">
+             <div class="proimg-wrap">
+               <img src="images/xbox.png" alt="images">
+             </div>
+             <div class="prod-info">
+               <h3>Xbox Series S</h3>
+               <p>New generation games. Embark on new adventures the way they're meant to be experienced on the Xbox Series S.</p>
+               <p class="price"><i class="fas fa-rupee-sign"></i> 34,990.00</p>
+               <p><a class="btntxt" href="">Shop Now</a></p>
+             </div>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <script src="js/search.js"></script>
+
+
+</body>
+</html>
